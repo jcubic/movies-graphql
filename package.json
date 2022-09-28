@@ -1,0 +1,19 @@
+{
+  "name": "movies",
+  "version": "0.1.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20",
+    "tmdbv3": "^0.1.2"
+  },
+  "devDependencies": {}
+}
